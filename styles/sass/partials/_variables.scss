@@ -1,0 +1,16 @@
+$light-sage: rgb(195, 218, 183);
+$white-two: rgb(246, 246, 246);
+$black: rgb(51, 51, 51);
+$accessory-font: 'Montserrat', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+
+@mixin font-styles ($weight,
+    $size,
+    $space) {
+    font-weight: $weight;
+    font-size: $size;
+    letter-spacing: $space;
+    font-family: $accessory-font;
+    color: $black;
+    text-align: center;
+}
