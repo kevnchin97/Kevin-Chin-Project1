@@ -315,3 +315,69 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.skip-link {
+  position: absolute;
+  left: -200px;
+  z-index: 10;
+}
+.skip-link:focus {
+  left: 0px;
+}
+
+nav {
+  background-image: url(../assets/home-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.nav-bar ul li {
+  padding: 0 10px;
+}
+
+section {
+  background-color: rgb(195, 218, 183);
+}
+section .work-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 200px;
+}
+section .img-container {
+  position: relative;
+}
+section .circ-txt {
+  position: absolute;
+  top: -45%;
+  left: -25%;
+}

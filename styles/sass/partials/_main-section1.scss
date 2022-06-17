@@ -1,0 +1,25 @@
+section {
+    background-color: $light-sage;
+
+    .work-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 200px;
+    }
+
+    .img-container {
+        position: relative;
+    }
+
+    .circ-txt {
+        position: absolute;
+        top: -45%;
+        left: -25%;
+
+    }
+
+
+
+}
