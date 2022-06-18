@@ -1,13 +1,13 @@
-section {
+.main-s1 {
     background-color: $light-sage;
 
-    .work-panel {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 200px;
-    }
+    // .work-panel {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     padding-top: 200px;
+    // }
 
     .img-container {
         position: relative;
@@ -24,7 +24,33 @@ section {
         width: 90%;
         padding: 75px 0 125px 0;
     }
+}
 
+.main-s1,
+.main-s2 {
+    .work-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 200px;
+    }
+}
 
+.main-s2 {
+    .work-panel {
+        padding-top: 150px;
+    }
 
+    img {
+        border-radius: 50%;
+    }
+
+    .txt-container {
+        padding-top: 50px;
+    }
+
+    p {
+        color: $black;
+    }
 }

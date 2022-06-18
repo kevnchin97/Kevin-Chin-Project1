@@ -356,10 +356,27 @@ nav {
   padding: 0 10px;
 }
 
-section {
+.main-s1 {
   background-color: rgb(195, 218, 183);
 }
-section .work-panel {
+.main-s1 .img-container {
+  position: relative;
+}
+.main-s1 .circ-txt {
+  position: absolute;
+  top: -45%;
+  left: -25%;
+}
+.main-s1 .txt-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  padding: 75px 0 125px 0;
+}
+
+.main-s1 .work-panel,
+.main-s2 .work-panel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,18 +392,16 @@ section .work-panel {
           align-items: center;
   padding-top: 200px;
 }
-section .img-container {
-  position: relative;
+
+.main-s2 .work-panel {
+  padding-top: 150px;
 }
-section .circ-txt {
-  position: absolute;
-  top: -45%;
-  left: -25%;
+.main-s2 img {
+  border-radius: 50%;
 }
-section .txt-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 90%;
-  padding: 75px 0 125px 0;
+.main-s2 .txt-container {
+  padding-top: 50px;
+}
+.main-s2 p {
+  color: rgb(51, 51, 51);
 }
