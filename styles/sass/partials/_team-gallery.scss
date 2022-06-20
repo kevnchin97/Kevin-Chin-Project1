@@ -1,0 +1,22 @@
+.top-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1280px;
+    // flex-grow: 2;
+
+
+    .txt-container {
+        background-color: $white-two;
+        // padding: 30px 5px 10px 5px;
+        width: calc((100% / 3));
+        flex-grow: 2;
+    }
+
+    .img-container {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+// i thinkt the reason why it keeps bleeding outta the wrapper container is becasue i have certain img elemnts that maintain the ratios. 
