@@ -404,4 +404,167 @@ nav {
 }
 .main-s2 p {
   color: rgb(51, 51, 51);
+  font-style: italic;
+}
+.main-s2 .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  bottom: 100px;
+}
+
+.main-s3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../assets/home-4.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.icon-gallery1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon-gallery2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.unique-design h3::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\e2ca";
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid rgb(51, 51, 51);
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.retina-ready h3::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\e163";
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid rgb(51, 51, 51);
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.advanced-options h3::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f1de";
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid rgb(51, 51, 51);
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.seo-marketing h3::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f276";
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid rgb(51, 51, 51);
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.ecommerce-ready h3::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f290";
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid rgb(51, 51, 51);
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.smile h3::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f290";
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid rgb(51, 51, 51);
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.unique-design,
+.retina-ready,
+.advanced-options,
+.seo-marketing,
+.ecommerce-ready,
+.smile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.unique-design h3,
+.retina-ready h3,
+.advanced-options h3,
+.seo-marketing h3,
+.ecommerce-ready h3,
+.smile h3 {
+  margin: 0;
+}
+
+.unique-design p,
+.retina-ready p,
+.advanced-options p,
+.seo-marketing p,
+.ecommerce-ready p,
+.smile p {
+  padding-left: 60px;
+  width: 50%;
+  text-align: left;
 }

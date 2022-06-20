@@ -52,5 +52,91 @@
 
     p {
         color: $black;
+        font-style: italic;
     }
+
+    .arrows {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+.main-s3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../assets/home-4.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.icon-gallery1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-gallery2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unique-design h3::before {
+    @include icon-gallery ("\e2ca")
+}
+
+.retina-ready h3::before {
+    @include icon-gallery ("\e163")
+}
+
+.advanced-options h3::before {
+    @include icon-gallery ("\f1de")
+}
+
+.seo-marketing h3::before {
+    @include icon-gallery ("\f276")
+}
+
+.ecommerce-ready h3::before {
+    @include icon-gallery ("\f290")
+}
+
+.smile h3::before {
+    @include icon-gallery ("\f290")
+}
+
+// \f118
+.unique-design,
+.retina-ready,
+.advanced-options,
+.seo-marketing,
+.ecommerce-ready,
+.smile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.unique-design h3,
+.retina-ready h3,
+.advanced-options h3,
+.seo-marketing h3,
+.ecommerce-ready h3,
+.smile h3 {
+    margin: 0;
+}
+
+.unique-design p,
+.retina-ready p,
+.advanced-options p,
+.seo-marketing p,
+.ecommerce-ready p,
+.smile p {
+    padding-left: 60px;
+    width: 50%;
+    text-align: left;
 }
