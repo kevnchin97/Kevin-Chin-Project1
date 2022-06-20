@@ -403,8 +403,9 @@ nav {
   padding-top: 50px;
 }
 .main-s2 p {
-  color: rgb(51, 51, 51);
+  color: rgba(51, 51, 51, 0.533);
   font-style: italic;
+  padding-bottom: 150px;
 }
 .main-s2 .arrows {
   display: -webkit-box;
@@ -433,19 +434,7 @@ nav {
   background-size: 100% 100%;
 }
 
-.icon-gallery1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
+.icon-gallery1,
 .icon-gallery2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -454,9 +443,6 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .unique-design h3::before {
@@ -468,7 +454,9 @@ nav {
   font-size: 24px;
   border-radius: 50%;
   padding: 10px;
-  margin-right: 10px;
+  position: relative;
+  top: 50px;
+  right: 25px;
 }
 
 .retina-ready h3::before {
@@ -480,7 +468,9 @@ nav {
   font-size: 24px;
   border-radius: 50%;
   padding: 10px;
-  margin-right: 10px;
+  position: relative;
+  top: 50px;
+  right: 25px;
 }
 
 .advanced-options h3::before {
@@ -492,7 +482,9 @@ nav {
   font-size: 24px;
   border-radius: 50%;
   padding: 10px;
-  margin-right: 10px;
+  position: relative;
+  top: 50px;
+  right: 25px;
 }
 
 .seo-marketing h3::before {
@@ -504,7 +496,10 @@ nav {
   font-size: 24px;
   border-radius: 50%;
   padding: 10px;
-  margin-right: 10px;
+  position: relative;
+  top: 50px;
+  right: 25px;
+  padding: 10px 15px 10px 15px;
 }
 
 .ecommerce-ready h3::before {
@@ -516,19 +511,23 @@ nav {
   font-size: 24px;
   border-radius: 50%;
   padding: 10px;
-  margin-right: 10px;
+  position: relative;
+  top: 50px;
+  right: 25px;
 }
 
 .smile h3::before {
   font-family: "Font Awesome 5 Free";
-  content: "\f290";
+  content: "\f118";
   display: inline-block;
   font-weight: 900;
   border: 2px solid rgb(51, 51, 51);
   font-size: 24px;
   border-radius: 50%;
   padding: 10px;
-  margin-right: 10px;
+  position: relative;
+  top: 50px;
+  right: 25px;
 }
 
 .unique-design,
@@ -556,6 +555,7 @@ nav {
 .ecommerce-ready h3,
 .smile h3 {
   margin: 0;
+  padding: 0;
 }
 
 .unique-design p,
@@ -564,7 +564,8 @@ nav {
 .seo-marketing p,
 .ecommerce-ready p,
 .smile p {
-  padding-left: 60px;
+  padding-left: 55px;
   width: 50%;
   text-align: left;
+  color: rgba(51, 51, 51, 0.533);
 }
