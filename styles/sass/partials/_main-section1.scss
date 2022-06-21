@@ -78,7 +78,7 @@
 .icon-gallery2 {
     display: flex;
     flex-direction: column;
-
+    width: 500px;
 }
 
 .unique-design h3::before {
@@ -154,7 +154,8 @@
 .ecommerce-ready p,
 .smile p {
     padding-left: 55px;
-    width: 50%;
+    width: 80%;
     text-align: left;
     color: $gray;
+    margin-bottom: 3rem;
 }

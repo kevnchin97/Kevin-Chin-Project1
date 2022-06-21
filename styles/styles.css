@@ -443,6 +443,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 500px;
 }
 
 .unique-design h3::before {
@@ -565,31 +566,56 @@ nav {
 .ecommerce-ready p,
 .smile p {
   padding-left: 55px;
-  width: 50%;
+  width: 80%;
   text-align: left;
   color: rgba(51, 51, 51, 0.533);
+  margin-bottom: 3rem;
 }
 
-.top-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.main-s4 h2 {
+  padding: 100px 0;
+}
+
+.team-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-areas: "top-txt-container top-txt-container home-5 home-6" "home-7 home-8 home-9 bottom-txt-container";
+}
+
+.top-txt-container {
+  grid-area: top-txt-container;
+  background-color: rgb(246, 246, 246);
+}
+
+.bottom-txt-container {
+  grid-area: bottom-txt-container;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 20px;
-  max-width: 1280px;
 }
-.top-row .txt-container {
-  background-color: rgb(246, 246, 246);
-  width: 33.3333333333%;
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
+
+.home-5 {
+  grid-area: home-5;
 }
-.top-row .img-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 20px;
+
+.home-6 {
+  grid-area: home-6;
+  background-image: url("./assets/home-6.jpeg");
+}
+
+.home-7 {
+  grid-area: home-7;
+}
+
+.home-8 {
+  grid-area: home-8;
+}
+
+.home-9 {
+  grid-area: home-9;
 }
