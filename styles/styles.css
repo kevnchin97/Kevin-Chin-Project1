@@ -298,6 +298,17 @@ h5 {
   line-height: 24px;
 }
 
+button,
+a {
+  font-weight: normal;
+  font-size: 0.7rem;
+  letter-spacing: 0.7px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .wrapper {
   max-width: 1280px;
   width: 70%;
@@ -572,6 +583,42 @@ nav {
   margin-bottom: 3rem;
 }
 
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgb(195, 218, 183);
+}
+.contact .img-container {
+  width: 50%;
+}
+.contact button {
+  display: block;
+}
+.contact .txt-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+.contact .txt-container p {
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.contact .txt-container .portfolio a {
+  padding: 10px 30px;
+  background-color: white;
+  font-weight: bold;
+}
+
 .main-s4 h2 {
   padding: 100px 0;
 }
@@ -581,12 +628,21 @@ nav {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
+  padding-bottom: 150px;
   grid-template-areas: "top-txt-container top-txt-container home-5 home-6" "home-7 home-8 home-9 bottom-txt-container";
+}
+.team-container img {
+  min-width: 100%;
+  min-height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .top-txt-container {
   grid-area: top-txt-container;
   background-color: rgb(246, 246, 246);
+  text-align: none;
 }
 
 .bottom-txt-container {

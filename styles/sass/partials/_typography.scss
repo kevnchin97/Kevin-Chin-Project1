@@ -23,5 +23,9 @@ h4,
 h5 {
     @include font-styles (normal, 0.9rem, 1.8px);
     line-height: 24px;
+}
 
+button,
+a {
+    @include font-styles (normal, 0.7rem, 0.7px);
 }

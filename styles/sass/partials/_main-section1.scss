@@ -78,6 +78,7 @@
 .icon-gallery2 {
     display: flex;
     flex-direction: column;
+
     width: 500px;
 }
 
@@ -159,3 +160,55 @@
     color: $gray;
     margin-bottom: 3rem;
 }
+
+
+.contact {
+    display: flex;
+
+    background-color: $light-sage;
+
+
+    .img-container {
+        width: 50%
+    }
+
+    button {
+        display: block;
+    }
+
+    .txt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+
+
+        p {
+            width: 60%;
+            margin: 0 auto;
+            padding: 30px 0;
+        }
+
+
+        .portfolio a {
+            padding: 10px 30px;
+            background-color: white;
+            font-weight: bold;
+        }
+    }
+
+    ;
+}
+
+
+
+
+// .main-s5 {
+//     background-color: $light-sage;
+//     background-image: url(../assets/home-10.jpeg);
+//     height: 100vh;
+//     background-repeat: no-repeat;
+//     background-position-x: 100%;
+//     background-size: 50% 100%;
+
+// }
