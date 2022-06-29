@@ -21,7 +21,7 @@ nav {
     background-image: url(../assets/blog-1.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 70vh;
+    height: 80vh;
 }
 
 .nav-bar {
@@ -45,8 +45,8 @@ nav {
 
 .blog-header {
     h2 {
-        // font-size: 1.85rem; size 37px according to styling... however looks to small in practice. 
-        font-size: 3.216rem;
+        font-size: 2.60rem;
+        // font-size: 3.216rem; this size looked good on my 2k resolution screen.
         font-weight: bold;
     }
 
@@ -93,11 +93,11 @@ nav {
     }
 
     .alex {
-        margin-right: 400px;
+        margin-right: 200px;
     }
 
     .date {
-        margin-right: 100px;
+        margin-right: 50px;
     }
 
     .category {

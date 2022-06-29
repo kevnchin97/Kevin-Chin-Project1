@@ -231,6 +231,37 @@
     }
 }
 
+.related-posts {
+
+    h3 {
+        font-weight: bold;
+        text-align: left;
+        font-size: 1.85rem;
+        border-bottom: 1px solid $gray;
+        padding-bottom: 30px;
+
+
+    }
+
+
+    .img-container {
+        display: flex;
+        gap: 30px;
+
+        img {
+            width: calc(100% /3);
+        }
+    }
+
+    .txt-container {
+        display: flex;
+
+        p {
+            width: calc((100% / 3));
+        }
+    }
+}
+
 
 
 
