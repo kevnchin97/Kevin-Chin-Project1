@@ -196,9 +196,41 @@
             font-weight: bold;
         }
     }
-
-    ;
 }
+
+.blog-main {
+
+
+    border-top: 1px solid $gray;
+    margin-bottom: 100px;
+
+    p:first-child {
+        margin-top: 50px;
+    }
+
+    span {
+
+        font-weight: bold;
+        text-align: left;
+        color: $black;
+    }
+
+    p {
+        color: $gray;
+        text-align: left;
+    }
+
+    .share-icons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        i {
+            padding: 0px 10px;
+        }
+    }
+}
+
 
 
 
