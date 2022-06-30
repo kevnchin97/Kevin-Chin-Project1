@@ -394,6 +394,11 @@ nav {
   padding: 0 10px;
 }
 
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
 .main-s1 {
   background-color: rgb(195, 218, 183);
 }
@@ -1048,9 +1053,9 @@ footer p {
   margin: 0;
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   nav {
-    height: 60vh;
+    height: 80vh;
   }
 
   .media-main-s3 {
@@ -1237,5 +1242,77 @@ footer p {
 
   .contact-details {
     margin: 100px 0px 120px 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .nav-bar {
+    display: block;
+  }
+  .nav-bar h1 {
+    display: block;
+  }
+
+  nav {
+    height: 40vh;
+    background-size: 100% 100%;
+  }
+
+  .main-s1 .circ-txt {
+    position: absolute;
+    top: -200%;
+    left: 0%;
+  }
+  .main-s1 .img-container {
+    margin-top: 100px;
+  }
+  .main-s1 .txt-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-s4 h2 {
+    line-height: 50px;
+  }
+  .main-s4 .team-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-s5 .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-s5 .contact .txt-container {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .main-s5 .contact .img-container {
+    width: 100%;
+  }
+  .main-s5 .contact .txt-container {
+    width: 100%;
+  }
+  .main-s5 .contact .portfolio {
+    margin-bottom: 20px;
+  }
+
+  .footer-container .contact-us p {
+    white-space: nowrap;
   }
 }

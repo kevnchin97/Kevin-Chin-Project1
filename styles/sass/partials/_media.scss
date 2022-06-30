@@ -1,6 +1,6 @@
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     nav {
-        height: 60vh;
+        height: 80vh;
     }
 
     .media-main-s3 {
@@ -140,4 +140,79 @@
 
 
 
-@media (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+    .nav-bar {
+        display: block;
+
+        h1 {
+            display: block;
+        }
+    }
+
+    nav {
+        height: 40vh;
+        background-size: 100% 100%;
+    }
+
+    .main-s1 {
+        .circ-txt {
+            position: absolute;
+            top: -200%;
+            left: 0%;
+        }
+
+        .img-container {
+            margin-top: 100px;
+        }
+
+        .txt-container {
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+
+    .main-s4 {
+        h2 {
+            line-height: 50px;
+        }
+
+        .team-container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .main-s5 {
+        .contact {
+            display: flex;
+            flex-direction: column;
+
+            .txt-container {
+                order: 2;
+            }
+
+            .img-container {
+                width: 100%;
+            }
+
+            .txt-container {
+                width: 100%;
+            }
+
+            .portfolio {
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    .footer-container {
+        .contact-us p {
+
+            white-space: nowrap;
+        }
+    }
+
+
+}
