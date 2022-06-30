@@ -739,12 +739,22 @@ nav {
   margin-right: 50px;
 }
 
-.first-comment {
+.comment-section h3 {
+  font-size: 1.85rem;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.533);
+  padding-bottom: 30px;
+}
+
+.first-comment,
+.second-comment {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.first-comment .txt-container {
+.first-comment .txt-container,
+.second-comment .txt-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -757,14 +767,17 @@ nav {
   height: 100px;
   padding-left: 20px;
   margin-left: 30px;
+  margin-bottom: 20px;
 }
-.first-comment .txt-container h4 {
+.first-comment .txt-container h4,
+.second-comment .txt-container h4 {
   text-align: left;
   font-size: 0.7rem;
   margin: 0;
   position: relative;
 }
-.first-comment .txt-container h4:before {
+.first-comment .txt-container h4:before,
+.second-comment .txt-container h4:before {
   content: "";
   position: absolute;
   top: 30px;
@@ -772,11 +785,46 @@ nav {
   border: solid 7px transparent;
   border-right-color: rgba(51, 51, 51, 0.3);
 }
-.first-comment .txt-container p {
+.first-comment .txt-container p,
+.second-comment .txt-container p {
   margin: 0;
   text-align: left;
   margin-bottom: 10px;
   color: rgba(51, 51, 51, 0.533);
+}
+
+.messages {
+  margin-bottom: 200px;
+}
+.messages h3 {
+  font-size: 1.85rem;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.533);
+  padding-bottom: 30px;
+}
+
+.messages form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.messages form input,
+.messages form textarea {
+  border: none;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.533);
+  margin-bottom: 40px;
+}
+.messages form button {
+  border: none;
+  width: 20%;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.533);
+  padding-bottom: 10px;
+  background-color: transparent;
 }
 
 .main-s4 h2 {
@@ -858,7 +906,7 @@ footer p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 100px 0px 150px 0px;
+  padding: 100px 0px 100px 0px;
 }
 .footer-container .contact-us,
 .footer-container .recent-post,

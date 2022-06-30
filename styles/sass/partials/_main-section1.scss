@@ -324,7 +324,18 @@
     }
 }
 
-.first-comment {
+.comment-section {
+    h3 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        text-align: left;
+        border-bottom: 1px solid $gray;
+        padding-bottom: 30px;
+    }
+}
+
+.first-comment,
+.second-comment {
     display: flex;
 
     .txt-container {
@@ -336,6 +347,7 @@
         height: 100px;
         padding-left: 20px;
         margin-left: 30px;
+        margin-bottom: 20px;
 
         h4 {
             text-align: left;
@@ -359,6 +371,38 @@
             margin-bottom: 10px;
             color: $gray;
         }
+    }
+}
 
+.messages {
+    margin-bottom: 200px;
+
+    h3 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        text-align: left;
+        border-bottom: 1px solid $gray;
+        padding-bottom: 30px;
+    }
+}
+
+.messages form {
+    display: flex;
+    flex-direction: column;
+
+
+    input,
+    textarea {
+        border: none;
+        border-bottom: 1px solid $gray;
+        margin-bottom: 40px;
+    }
+
+    button {
+        border: none;
+        width: 20%;
+        border-bottom: 1px solid $gray;
+        padding-bottom: 10px;
+        background-color: transparent;
     }
 }
