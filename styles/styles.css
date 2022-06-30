@@ -367,6 +367,10 @@ nav {
   line-height: 40px;
   margin-top: 110px;
 }
+.contact-nav-bar h2 span {
+  border-top: 3px solid rgb(51, 51, 51);
+  padding-top: 40px;
+}
 
 .nav-bar {
   display: -webkit-box;
@@ -809,6 +813,52 @@ nav {
   color: rgba(51, 51, 51, 0.533);
 }
 
+.contact-details {
+  margin: 150px 0px 100px 0px;
+  text-align: left;
+}
+.contact-details h4 {
+  text-align: left;
+  font-weight: bold;
+}
+.contact-details p {
+  color: rgba(51, 51, 51, 0.533);
+}
+
+.contact-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+}
+.contact-icons h4,
+.contact-icons p {
+  text-align: left;
+}
+.contact-icons .address-icon {
+  margin: 0px 100px;
+  padding: 0px 50px;
+  border-left: 1px solid rgba(51, 51, 51, 0.3);
+  border-right: 1px solid rgba(51, 51, 51, 0.3);
+}
+
+.in-touch {
+  margin: 70px 0px 100px 0px;
+}
+.in-touch h4 {
+  font-weight: bold;
+}
+.in-touch h4,
+.in-touch p {
+  text-align: left;
+}
+.in-touch p {
+  color: rgba(51, 51, 51, 0.533);
+}
+
 .main-s4 h2 {
   padding: 100px 0;
 }
@@ -975,4 +1025,8 @@ footer p {
   border-bottom: 1px solid rgba(51, 51, 51, 0.533);
   padding-bottom: 10px;
   background-color: transparent;
+}
+
+.message-button {
+  font-weight: bold;
 }
