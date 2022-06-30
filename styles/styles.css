@@ -456,6 +456,10 @@ nav {
   bottom: 100px;
 }
 
+.media-main-s3 {
+  display: none;
+}
+
 .main-s3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -784,7 +788,7 @@ nav {
           flex-direction: column;
   background-color: rgba(51, 51, 51, 0.3);
   width: 1000px;
-  height: 100px;
+  height: 105px;
   padding-left: 20px;
   margin-left: 30px;
   margin-bottom: 20px;
@@ -1029,4 +1033,183 @@ footer p {
 
 .message-button {
   font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  nav {
+    height: 60vh;
+  }
+
+  .media-main-s3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .media-main-s3 .icon-gallery1 {
+    margin-top: 50px;
+    width: 100vw;
+  }
+  .media-main-s3 .icon-gallery1 .unique-design,
+.media-main-s3 .icon-gallery1 .retina-ready,
+.media-main-s3 .icon-gallery1 .advanced-options {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .media-main-s3 .icon-gallery2 {
+    width: 100vw;
+  }
+  .media-main-s3 .icon-gallery2 .seo-marketing,
+.media-main-s3 .icon-gallery2 .ecommerce-ready,
+.media-main-s3 .icon-gallery2 .smile {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .unique-design h3::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\e2ca";
+    display: inline-block;
+    font-weight: 900;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    right: 25px;
+  }
+
+  .retina-ready h3::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\e163";
+    display: inline-block;
+    font-weight: 900;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    right: 25px;
+  }
+
+  .advanced-options h3::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1de";
+    display: inline-block;
+    font-weight: 900;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    right: 25px;
+  }
+
+  .seo-marketing h3::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f276";
+    display: inline-block;
+    font-weight: 900;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    right: 25px;
+    padding: 10px 15px 10px 15px;
+  }
+
+  .ecommerce-ready h3::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f290";
+    display: inline-block;
+    font-weight: 900;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    right: 25px;
+  }
+
+  .smile h3::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f118";
+    display: inline-block;
+    font-weight: 900;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    right: 25px;
+  }
+
+  .main-s3 {
+    display: none;
+  }
+
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .contact-us {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .twitter {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+  }
+
+  .main-s4 h2 {
+    font-weight: bold;
+    font-size: 1.85rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.533);
+  }
+}
+.blog-nav-bar {
+  height: 60vh;
+}
+
+.blog-header h2 {
+  line-height: 60px;
+}
+.blog-header .header-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }

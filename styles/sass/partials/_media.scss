@@ -1,4 +1,128 @@
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    nav {
+        height: 60vh;
+    }
+
+    .media-main-s3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .icon-gallery1 {
+            margin-top: 50px;
+            width: 100vw;
+
+            .unique-design,
+            .retina-ready,
+            .advanced-options {
+                align-items: center;
+            }
+        }
+
+        .icon-gallery2 {
+            width: 100vw;
+
+            .seo-marketing,
+            .ecommerce-ready,
+            .smile {
+                align-items: center;
+            }
+        }
+    }
+
+    .unique-design h3::before {
+        @include icon-gallery ("\e2ca");
+        position: relative;
+        top: 0px;
+        right: 25px;
+    }
+
+    .retina-ready h3::before {
+        @include icon-gallery ("\e163");
+        position: relative;
+        top: 0px;
+        right: 25px;
+    }
+
+    .advanced-options h3::before {
+        @include icon-gallery ("\f1de");
+        position: relative;
+        top: 0px;
+        right: 25px;
+    }
+
+    .seo-marketing h3::before {
+        @include icon-gallery ("\f276");
+        position: relative;
+        top: 0px;
+        right: 25px;
+        padding: 10px 15px 10px 15px;
+        // i believe the sizing of the location pin icon is smaller compared to the other icons despite having a font-size of 24px. as a result giving a oval shape rather than a perfect circle. i added some extra padding around the pin to make it more circular.
+    }
+
+    .ecommerce-ready h3::before {
+        @include icon-gallery ("\f290");
+        position: relative;
+        top: 0px;
+        right: 25px;
+    }
+
+    .smile h3::before {
+        @include icon-gallery ("\f118");
+        position: relative;
+        top: 0px;
+        right: 25px;
+    }
+
+    .main-s3 {
+        display: none;
+    }
+
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .contact-us {
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .twitter {
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .main-s4 {
+        h2 {
+            font-weight: bold;
+            font-size: 1.85rem;
+            padding-bottom: 10px;
+            border-bottom: 1px solid $gray;
+
+        }
+    }
+}
+
+.blog-nav-bar {
+    height: 60vh;
+
+}
+
+.blog-header {
+    h2 {
+        line-height: 60px;
+    }
+
+    .header-txt {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 
 
