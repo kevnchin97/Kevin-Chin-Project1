@@ -105,21 +105,21 @@
 
         }
     }
-}
 
-.blog-nav-bar {
-    height: 60vh;
+    .blog-nav-bar {
+        height: 60vh;
 
-}
-
-.blog-header {
-    h2 {
-        line-height: 60px;
     }
 
-    .header-txt {
-        display: flex;
-        flex-direction: column;
+    .blog-header {
+        h2 {
+            line-height: 60px;
+        }
+
+        .header-txt {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
 
