@@ -262,16 +262,103 @@
     }
 }
 
+.blog-header {
+    h2 {
+        font-size: 2.60rem;
+        // font-size: 3.216rem; this size looked good on my 2k resolution screen.
+        font-weight: bold;
+    }
 
+    p {
+        text-align: left;
+        color: $gray;
+    }
 
+    span {
+        color: $black;
+    }
 
+    .author {
+        display: flex;
 
-// .main-s5 {
-//     background-color: $light-sage;
-//     background-image: url(../assets/home-10.jpeg);
-//     height: 100vh;
-//     background-repeat: no-repeat;
-//     background-position-x: 100%;
-//     background-size: 50% 100%;
+        img {
+            border-radius: 50%;
+            margin-top: 20px;
 
-// }
+        }
+
+        .header-txt {
+            display: flex;
+            padding-bottom: 50px;
+        }
+
+        .alex,
+        .date,
+        .category,
+        .tags {
+            text-align: left;
+            margin-top: 30px;
+            margin-left: 20px;
+
+            h5 {
+                text-align: left;
+                margin: 0;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .alex {
+        margin-right: 200px;
+    }
+
+    .date {
+        margin-right: 50px;
+    }
+
+    .category {
+        margin-right: 50px;
+    }
+}
+
+.first-comment {
+    display: flex;
+
+    .txt-container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(51, 51, 51, 0.300);
+
+        width: 1000px;
+        height: 100px;
+        padding-left: 20px;
+        margin-left: 30px;
+
+        h4 {
+            text-align: left;
+            font-size: 0.7rem;
+            margin: 0;
+            position: relative;
+        }
+
+        h4:before {
+            content: "";
+            position: absolute;
+            top: 30px;
+            left: -33px;
+            border: solid 7px transparent;
+            border-right-color: rgba(51, 51, 51, 0.300);
+        }
+
+        p {
+            margin: 0;
+            text-align: left;
+            margin-bottom: 10px;
+            color: $gray;
+        }
+
+    }
+}

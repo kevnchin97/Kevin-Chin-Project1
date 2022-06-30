@@ -374,63 +374,6 @@ nav {
   padding: 0 10px;
 }
 
-.blog-header h2 {
-  font-size: 2.6rem;
-  font-weight: bold;
-}
-.blog-header p {
-  text-align: left;
-  color: rgba(51, 51, 51, 0.533);
-}
-.blog-header span {
-  color: rgb(51, 51, 51);
-}
-.blog-header .author {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.blog-header .author img {
-  border-radius: 50%;
-  margin-top: 20px;
-}
-.blog-header .author .header-txt {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 50px;
-}
-.blog-header .author .alex,
-.blog-header .author .date,
-.blog-header .author .category,
-.blog-header .author .tags {
-  text-align: left;
-  margin-top: 30px;
-  margin-left: 20px;
-}
-.blog-header .author .alex h5,
-.blog-header .author .date h5,
-.blog-header .author .category h5,
-.blog-header .author .tags h5 {
-  text-align: left;
-  margin: 0;
-}
-.blog-header .author .alex p,
-.blog-header .author .date p,
-.blog-header .author .category p,
-.blog-header .author .tags p {
-  margin: 0;
-}
-.blog-header .alex {
-  margin-right: 200px;
-}
-.blog-header .date {
-  margin-right: 50px;
-}
-.blog-header .category {
-  margin-right: 50px;
-}
-
 .main-s1 {
   background-color: rgb(195, 218, 183);
 }
@@ -737,6 +680,103 @@ nav {
 }
 .related-posts .txt-container p {
   width: 33.3333333333%;
+}
+
+.blog-header h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.blog-header p {
+  text-align: left;
+  color: rgba(51, 51, 51, 0.533);
+}
+.blog-header span {
+  color: rgb(51, 51, 51);
+}
+.blog-header .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog-header .author img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.blog-header .author .header-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 50px;
+}
+.blog-header .author .alex,
+.blog-header .author .date,
+.blog-header .author .category,
+.blog-header .author .tags {
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.blog-header .author .alex h5,
+.blog-header .author .date h5,
+.blog-header .author .category h5,
+.blog-header .author .tags h5 {
+  text-align: left;
+  margin: 0;
+}
+.blog-header .author .alex p,
+.blog-header .author .date p,
+.blog-header .author .category p,
+.blog-header .author .tags p {
+  margin: 0;
+}
+.blog-header .alex {
+  margin-right: 200px;
+}
+.blog-header .date {
+  margin-right: 50px;
+}
+.blog-header .category {
+  margin-right: 50px;
+}
+
+.first-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.first-comment .txt-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(51, 51, 51, 0.3);
+  width: 1000px;
+  height: 100px;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+.first-comment .txt-container h4 {
+  text-align: left;
+  font-size: 0.7rem;
+  margin: 0;
+  position: relative;
+}
+.first-comment .txt-container h4:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: -33px;
+  border: solid 7px transparent;
+  border-right-color: rgba(51, 51, 51, 0.3);
+}
+.first-comment .txt-container p {
+  margin: 0;
+  text-align: left;
+  margin-bottom: 10px;
+  color: rgba(51, 51, 51, 0.533);
 }
 
 .main-s4 h2 {
