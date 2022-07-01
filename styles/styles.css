@@ -702,6 +702,9 @@ nav {
 .related-posts .img-container img {
   width: 33.3333333333%;
 }
+.related-posts .img-container p {
+  display: none;
+}
 .related-posts .txt-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1319,7 +1322,7 @@ footer p {
 
   .blog-nav-bar {
     height: 30vh;
-    background-position-y: 100%;
+    background-position: bottom;
     background-size: contain;
   }
 
@@ -1342,19 +1345,11 @@ footer p {
   .related-posts .img-container img {
     width: 100%;
   }
-  .related-posts .txt-container .first-img {
-    position: absolute;
-    top: 3385px;
-    width: 70%;
+  .related-posts .img-container p {
+    display: block;
   }
-  .related-posts .txt-container .sec-img {
-    position: absolute;
-    top: 3705px;
-    width: 70%;
-  }
-  .related-posts .txt-container .third-img {
-    position: relative;
-    width: 100%;
+  .related-posts .txt-container {
+    display: none;
   }
 
   .comment-section h3 {
@@ -1421,7 +1416,8 @@ footer p {
             justify-content: center;
     width: 100%;
     margin: 0;
-    margin-top: 250px;
+    color: rgba(51, 51, 51, 0.533);
+    margin-top: 30%;
     text-align: center;
   }
 

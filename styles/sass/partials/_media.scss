@@ -216,7 +216,7 @@
     .blog-nav-bar {
 
         height: 30vh;
-        background-position-y: 100%;
+        background-position: bottom;
         background-size: contain;
     }
 
@@ -241,26 +241,14 @@
             img {
                 width: 100%;
             }
+
+            p {
+                display: block;
+            }
         }
 
         .txt-container {
-            .first-img {
-                position: absolute;
-                top: 3385px;
-                width: 70%;
-            }
-
-            .sec-img {
-                position: absolute;
-                top: 3705px;
-                width: 70%;
-            }
-
-            .third-img {
-                // position relative because I wanted to maintain the white spacing.
-                position: relative;
-                width: 100%;
-            }
+            display: none;
         }
     }
 
@@ -327,7 +315,9 @@
             justify-content: center;
             width: 100%;
             margin: 0;
-            margin-top: 250px;
+            // margin-top: 250px;
+            color: $gray;
+            margin-top: 30%;
             text-align: center;
         }
     }
@@ -368,6 +358,8 @@
         }
     }
 }
+
+
 
 
 @media only screen and (max-width: 320px) {
