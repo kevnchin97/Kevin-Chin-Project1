@@ -214,5 +214,97 @@
         }
     }
 
+    .blog-nav-bar {
+
+        height: 30vh;
+        background-position-y: 100%;
+        background-size: contain;
+    }
+
+    .blog-header h2 {
+        font-size: 1.85rem;
+    }
+
+    .related-posts {
+        h3 {
+            line-height: 40px;
+
+        }
+
+        .img-container {
+            display: flex;
+            flex-direction: column;
+            // position: relative;
+
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .txt-container {
+            .first-img {
+                position: absolute;
+                top: 3385px;
+                width: 70%;
+            }
+
+            .sec-img {
+                position: absolute;
+                top: 3705px;
+                width: 70%;
+            }
+
+            .third-img {
+                // position relative because I wanted to maintain the white spacing.
+                position: relative;
+                width: 100%;
+            }
+        }
+    }
+
+    .comment-section {
+        h3 {
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .first-comment,
+        .second-comment {
+            display: flex;
+            flex-direction: column;
+
+            .img-container img {
+                width: 100%;
+            }
+
+            .txt-container {
+                width: 100%;
+
+                padding: 0;
+                padding-bottom: 200px;
+                margin: 20px 0px 100px 0px;
+
+                h4:before {
+                    top: -7px;
+                    left: 30px;
+                    // removed the unnecessary borders to show top triangle. Aligned top triangle with comment box.
+                    border-right: 7px solid transparent;
+                    border-left: 7px solid transparent;
+                    border-bottom: 7px solid rgba(51, 51, 51, 0.300);
+                    border-top: none;
+                }
+            }
+        }
+    }
+
+    .messages {
+        h3 {
+            line-height: 40px;
+            text-align: center;
+        }
+
+        form {}
+    }
 
 }
