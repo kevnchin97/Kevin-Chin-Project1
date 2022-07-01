@@ -137,10 +137,8 @@
     }
 }
 
+@media only screen and (max-width: 576px) {
 
-
-
-@media only screen and (max-width: 320px) {
     .nav-bar {
         display: block;
 
@@ -157,12 +155,13 @@
     .main-s1 {
         .circ-txt {
             position: absolute;
-            top: -200%;
-            left: 0%;
+            top: -45%;
+            left: -20%;
         }
 
         .img-container {
-            margin-top: 100px;
+            margin-top: 30px;
+            position: relative;
         }
 
         .txt-container {
@@ -225,6 +224,8 @@
         font-size: 1.85rem;
     }
 
+
+
     .related-posts {
         h3 {
             line-height: 40px;
@@ -234,7 +235,7 @@
         .img-container {
             display: flex;
             flex-direction: column;
-            // position: relative;
+
 
 
             img {
@@ -319,4 +320,283 @@
         }
     }
 
+    .contact-nav-bar {
+        background-size: 100% 30%;
+
+        h2 {
+            justify-content: center;
+            width: 100%;
+            margin: 0;
+            margin-top: 250px;
+            text-align: center;
+        }
+    }
+
+    // decided to use text-align center in the contact html page and not in the blog html page because there is less text here and it looks more visually appealing compared to the blog page. 
+
+    .contact-details {
+
+        h4,
+        p {
+            text-align: center;
+        }
+    }
+
+
+    .contact-icons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        h4,
+        p {
+            text-align: center;
+        }
+
+        .address-icon {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+    }
+
+    .in-touch {
+
+        h4,
+        p {
+            text-align: center;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .nav-bar {
+        display: block;
+
+        h1 {
+            display: block;
+        }
+    }
+
+    nav {
+        height: 40vh;
+        background-size: 100% 100%;
+    }
+
+    .main-s1 {
+        .circ-txt {
+            position: absolute;
+            top: -200%;
+            left: 0%;
+        }
+
+        .img-container {
+            margin-top: 100px;
+        }
+
+        .txt-container {
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+
+    .main-s4 {
+        h2 {
+            line-height: 50px;
+        }
+
+        .team-container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .main-s5 {
+        .contact {
+            display: flex;
+            flex-direction: column;
+
+            .txt-container {
+                order: 2;
+            }
+
+            .img-container {
+                width: 100%;
+            }
+
+            .txt-container {
+                width: 100%;
+            }
+
+            .portfolio {
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    .footer-container {
+        .contact-us p {
+
+            white-space: nowrap;
+        }
+    }
+
+    .blog-nav-bar {
+
+        height: 30vh;
+        background-position-y: 100%;
+        background-size: contain;
+    }
+
+    .blog-header h2 {
+        font-size: 1.85rem;
+    }
+
+
+
+    .related-posts {
+        h3 {
+            line-height: 40px;
+
+        }
+
+        .img-container {
+            display: flex;
+            flex-direction: column;
+
+
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .txt-container {
+            .first-img {
+                position: absolute;
+                top: 3385px;
+                width: 70%;
+            }
+
+            .sec-img {
+                position: absolute;
+                top: 3705px;
+                width: 70%;
+            }
+
+            .third-img {
+                // position relative because I wanted to maintain the white spacing.
+                position: relative;
+                width: 100%;
+            }
+        }
+    }
+
+    .comment-section {
+        h3 {
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .first-comment,
+        .second-comment {
+            display: flex;
+            flex-direction: column;
+
+            .img-container img {
+                width: 100%;
+            }
+
+            .txt-container {
+                width: 100%;
+
+                padding: 0;
+                padding-bottom: 200px;
+                margin: 20px 0px 100px 0px;
+
+                h4:before {
+                    top: -7px;
+                    left: 30px;
+                    // removed the unnecessary borders to show top triangle. Aligned top triangle with comment box.
+                    border-right: 7px solid transparent;
+                    border-left: 7px solid transparent;
+                    border-bottom: 7px solid rgba(51, 51, 51, 0.300);
+                    border-top: none;
+                }
+            }
+        }
+    }
+
+    .messages {
+        h3 {
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .align-forms {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 100%;
+            }
+        }
+
+        .comment-button {
+            width: 100%;
+
+        }
+    }
+
+    .contact-nav-bar {
+        background-size: 100% 30%;
+
+        h2 {
+            justify-content: center;
+            width: 100%;
+            margin: 0;
+            margin-top: 250px;
+            text-align: center;
+        }
+    }
+
+    // decided to use text-align center in the contact html page and not in the blog html page because there is less text here and it looks more visually appealing compared to the blog page. 
+
+    .contact-details {
+
+        h4,
+        p {
+            text-align: center;
+        }
+    }
+
+
+    .contact-icons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        h4,
+        p {
+            text-align: center;
+        }
+
+        .address-icon {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+    }
+
+    .in-touch {
+
+        h4,
+        p {
+            text-align: center;
+        }
+    }
 }
