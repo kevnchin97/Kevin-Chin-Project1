@@ -304,7 +304,19 @@
             text-align: center;
         }
 
-        form {}
+        .align-forms {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 100%;
+            }
+        }
+
+        .comment-button {
+            width: 100%;
+
+        }
     }
 
 }
