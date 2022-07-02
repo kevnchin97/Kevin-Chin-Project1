@@ -8,6 +8,10 @@
     }
 }
 
+.media-nav-menu {
+    display: none;
+}
+
 nav {
     background-image: url(../assets/home-1.jpeg);
     background-repeat: no-repeat;
@@ -29,7 +33,6 @@ nav {
     background-image: url(../assets/contact-1.jpeg);
     background-size: contain;
     background-position-y: bottom;
-    // background-position-y: 15%;
     height: 35vh;
 
     h2 {
@@ -43,7 +46,7 @@ nav {
 
         span {
             border-top: 3px solid $black;
-            padding-top: 40px;
+
         }
     }
 }

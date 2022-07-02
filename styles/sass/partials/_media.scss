@@ -139,8 +139,51 @@
 
 @media only screen and (max-width: 576px) {
 
-    .nav-bar {
+    .media-nav-menu {
         display: block;
+
+        h1 {
+            // position: absolute;
+            // top: 100px;
+            // left: 190px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+        // hide checkbox
+        input[type=checkbox],
+        .media-navs {
+            display: none;
+        }
+
+        input[type=checkbox]+label {
+            // target adjacent sibling to style menu
+            display: inline-block;
+            height: 15px;
+            width: 30px;
+            border: 2px solid $gray;
+            position: absolute;
+            top: 0;
+            right: 420px;
+            background-color: white;
+            padding: 0;
+            border-radius: 20%;
+        }
+
+        input[type=checkbox]:checked~.media-navs {
+            display: inline-block;
+            position: relative;
+            top: 0px;
+            left: -165px;
+
+        }
+    }
+
+    .nav-bar {
+        display: none;
 
         h1 {
             display: block;
@@ -310,6 +353,7 @@
 
     .contact-nav-bar {
         background-size: 100% 30%;
+        background-position-y: 10%;
 
         h2 {
             justify-content: center;
@@ -363,6 +407,10 @@
 
 
 @media only screen and (max-width: 320px) {
+
+    .media-nav-menu {
+        display: none;
+    }
 
     .nav-bar {
         display: block;
@@ -545,7 +593,10 @@
     }
 
     .contact-nav-bar {
-        background-size: 100% 30%;
+        background-size: 100% 50%;
+
+        background-position-y: bottom;
+        height: 35vh;
 
         h2 {
             justify-content: center;

@@ -338,6 +338,10 @@ a {
   left: 0px;
 }
 
+.media-nav-menu {
+  display: none;
+}
+
 nav {
   background-image: url(../assets/home-1.jpeg);
   background-repeat: no-repeat;
@@ -369,7 +373,6 @@ nav {
 }
 .contact-nav-bar h2 span {
   border-top: 3px solid rgb(51, 51, 51);
-  padding-top: 40px;
 }
 
 .nav-bar {
@@ -1248,8 +1251,47 @@ footer p {
   }
 }
 @media only screen and (max-width: 576px) {
-  .nav-bar {
+  .media-nav-menu {
     display: block;
+  }
+  .media-nav-menu h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .media-nav-menu input[type=checkbox],
+.media-nav-menu .media-navs {
+    display: none;
+  }
+  .media-nav-menu input[type=checkbox] + label {
+    display: inline-block;
+    height: 15px;
+    width: 30px;
+    border: 2px solid rgba(51, 51, 51, 0.533);
+    position: absolute;
+    top: 0;
+    right: 420px;
+    background-color: white;
+    padding: 0;
+    border-radius: 20%;
+  }
+  .media-nav-menu input[type=checkbox]:checked ~ .media-navs {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: -165px;
+  }
+
+  .nav-bar {
+    display: none;
   }
   .nav-bar h1 {
     display: block;
@@ -1409,6 +1451,7 @@ footer p {
 
   .contact-nav-bar {
     background-size: 100% 30%;
+    background-position-y: 10%;
   }
   .contact-nav-bar h2 {
     -webkit-box-pack: center;
@@ -1452,6 +1495,10 @@ footer p {
   }
 }
 @media only screen and (max-width: 320px) {
+  .media-nav-menu {
+    display: none;
+  }
+
   .nav-bar {
     display: block;
   }
@@ -1619,7 +1666,9 @@ footer p {
   }
 
   .contact-nav-bar {
-    background-size: 100% 30%;
+    background-size: 100% 50%;
+    background-position-y: bottom;
+    height: 35vh;
   }
   .contact-nav-bar h2 {
     -webkit-box-pack: center;
