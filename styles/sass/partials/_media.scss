@@ -143,9 +143,6 @@
         display: block;
 
         h1 {
-            // position: absolute;
-            // top: 100px;
-            // left: 190px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -174,6 +171,7 @@
         }
 
         input[type=checkbox]:checked~.media-navs {
+            // targets everything in .media-nav
             display: inline-block;
             position: relative;
             top: 0px;
@@ -356,19 +354,20 @@
         background-position-y: 10%;
 
         h2 {
+            display: flex;
             justify-content: center;
+            align-items: flex-end;
             width: 100%;
+            height: 25vh;
             margin: 0;
-            // margin-top: 250px;
             color: $gray;
-            margin-top: 30%;
-            text-align: center;
         }
     }
 
     // decided to use text-align center in the contact html page and not in the blog html page because there is less text here and it looks more visually appealing compared to the blog page. 
 
     .contact-details {
+        margin-top: 0;
 
         h4,
         p {
@@ -594,22 +593,21 @@
 
     .contact-nav-bar {
         background-size: 100% 50%;
-
         background-position-y: bottom;
         height: 35vh;
 
         h2 {
+            display: flex;
             justify-content: center;
-            width: 100%;
-            margin: 0;
-            margin-top: 250px;
-            text-align: center;
+            align-items: center;
+            color: $white-two;
         }
     }
 
     // decided to use text-align center in the contact html page and not in the blog html page because there is less text here and it looks more visually appealing compared to the blog page. 
 
     .contact-details {
+        margin-top: 100px;
 
         h4,
         p {
