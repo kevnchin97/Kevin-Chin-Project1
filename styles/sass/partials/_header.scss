@@ -73,18 +73,26 @@ nav {
 
             a {
                 position: relative;
-
-                .counter {
-                    width: 15px;
-                    background-color: $light-sage;
-                    border-radius: 50%;
-                    position: absolute;
-                    ;
-                }
+                // presentation idea? how come position relative still applies even though its a child of -nav-bar?
+                // .counter {
+                //     width: 15px;
+                //     background-color: $light-sage;
+                //     border-radius: 50%;
+                //     position: absolute;
+                //    
+                // }
             }
 
         }
     }
+}
+
+.counter {
+    width: 15px;
+    background-color: $light-sage;
+    border-radius: 50%;
+    position: absolute;
+    ;
 }
 
 .menu {

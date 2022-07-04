@@ -402,7 +402,8 @@ nav {
 .nav-bar ul li a {
   position: relative;
 }
-.nav-bar ul li a .counter {
+
+.counter {
   width: 15px;
   background-color: rgb(195, 218, 183);
   border-radius: 50%;
