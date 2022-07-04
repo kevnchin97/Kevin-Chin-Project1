@@ -442,6 +442,28 @@ nav {
   padding-top: 200px;
 }
 
+.vertical-line::after {
+  content: "";
+  position: absolute;
+  border-left: 1px solid rgba(51, 51, 51, 0.533);
+  height: 100px;
+  top: 92%;
+  right: 50%;
+}
+
+.vertical-line-2 {
+  position: relative;
+}
+
+.vertical-line-2::after {
+  content: "";
+  position: absolute;
+  border-left: 1px solid rgba(51, 51, 51, 0.533);
+  height: 70px;
+  top: 0;
+  right: 50%;
+}
+
 .main-s2 .work-panel {
   padding-top: 150px;
 }
@@ -1082,6 +1104,11 @@ footer p {
     height: 80vh;
   }
 
+  .vertical-line::after {
+    top: 75%;
+    right: 50%;
+  }
+
   .media-main-s3 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1290,22 +1317,15 @@ footer p {
     display: none;
   }
   .media-nav-menu input[type=checkbox] + label {
-    display: inline-block;
-    height: 15px;
-    width: 30px;
-    border: 2px solid rgba(51, 51, 51, 0.533);
     position: absolute;
     top: 0;
     right: 420px;
-    background-color: white;
-    padding: 0;
-    border-radius: 20%;
   }
   .media-nav-menu input[type=checkbox]:checked ~ .media-navs {
     display: inline-block;
     position: relative;
     top: 0px;
-    left: -165px;
+    left: -175px;
   }
 
   .nav-bar {
@@ -1318,6 +1338,10 @@ footer p {
   nav {
     height: 40vh;
     background-size: 100% 100%;
+  }
+
+  .vertical-line::after {
+    display: none;
   }
 
   .main-s1 .circ-txt {

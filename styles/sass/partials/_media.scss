@@ -1,6 +1,13 @@
 @media only screen and (max-width: 1024px) {
+
+
     nav {
         height: 80vh;
+    }
+
+    .vertical-line::after {
+        top: 75%;
+        right: 50%;
     }
 
     .media-main-s3 {
@@ -158,16 +165,9 @@
 
         input[type=checkbox]+label {
             // target adjacent sibling to style menu
-            display: inline-block;
-            height: 15px;
-            width: 30px;
-            border: 2px solid $gray;
             position: absolute;
             top: 0;
             right: 420px;
-            background-color: white;
-            padding: 0;
-            border-radius: 20%;
         }
 
         input[type=checkbox]:checked~.media-navs {
@@ -175,10 +175,10 @@
             display: inline-block;
             position: relative;
             top: 0px;
-            left: -165px;
-
+            left: -175px;
         }
     }
+
 
     .nav-bar {
         display: none;
@@ -191,6 +191,10 @@
     nav {
         height: 40vh;
         background-size: 100% 100%;
+    }
+
+    .vertical-line::after {
+        display: none;
     }
 
     .main-s1 {
