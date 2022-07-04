@@ -399,6 +399,15 @@ nav {
 .nav-bar ul li {
   padding: 0 10px;
 }
+.nav-bar ul li a {
+  position: relative;
+}
+.nav-bar ul li a .counter {
+  width: 15px;
+  background-color: rgb(195, 218, 183);
+  border-radius: 50%;
+  position: absolute;
+}
 
 .menu {
   display: none;

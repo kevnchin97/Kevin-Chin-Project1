@@ -70,6 +70,19 @@ nav {
 
         li {
             padding: 0 10px;
+
+            a {
+                position: relative;
+
+                .counter {
+                    width: 15px;
+                    background-color: $light-sage;
+                    border-radius: 50%;
+                    position: absolute;
+                    ;
+                }
+            }
+
         }
     }
 }
