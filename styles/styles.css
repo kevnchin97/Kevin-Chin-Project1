@@ -528,7 +528,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 500px;
+  width: 375px;
 }
 
 .unique-design h3::before {

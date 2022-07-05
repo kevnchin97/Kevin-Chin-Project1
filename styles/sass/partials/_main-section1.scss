@@ -1,14 +1,6 @@
 .main-s1 {
     background-color: $light-sage;
 
-    // .work-panel {
-    //     display: flex;
-    //     flex-direction: column;
-    //     justify-content: center;
-    //     align-items: center;
-    //     padding-top: 200px;
-    // }
-
     .img-container {
         position: relative;
     }
@@ -109,8 +101,7 @@
 .icon-gallery2 {
     display: flex;
     flex-direction: column;
-
-    width: 500px;
+    width: 375px;
 }
 
 .unique-design h3::before {
